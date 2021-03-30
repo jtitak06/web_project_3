@@ -1,0 +1,15 @@
+.intro__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    width: 690px;
+    height: 72px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1140px) {
+
+}

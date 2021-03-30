@@ -1,0 +1,23 @@
+.header__lang-link {
+    position: absolute;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    z-index: 1;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__lang-link:first-of-type {
+    width: 29px;
+    height: 28px;
+    top: 46px;
+    left: 1058px;
+    text-decoration-line: underline;
+    }
+    .header__lang-link:last-of-type {
+    width: 27px;
+    height: 28px;
+    top: 46px;
+    left: 1105px;
+    }
+}
