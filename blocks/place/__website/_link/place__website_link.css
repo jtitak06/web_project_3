@@ -5,10 +5,10 @@
     line-height: 22px;
     text-decoration-line: underline;
     transition-duration: 0.5s;
+    color:#ffffff;
 }
 
 .place__website_link:hover {
     opacity: 0.8;
     text-decoration: none;
-    color: #ffffff;
 }

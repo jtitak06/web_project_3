@@ -1,6 +1,6 @@
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     max-width: 1184px;
     grid-gap: 16px;
     margin: 92px auto;
@@ -8,8 +8,18 @@
 
 @media screen and (max-width: 425px) {
     .photo-grid {
-        max-width: 288px;
-        display: flex;
-        flex-direction: column;
+        max-height: 2724px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .photo-grid {
+        max-height: 1664px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .photo-grid {
+        max-height: 942px;
     }
 }

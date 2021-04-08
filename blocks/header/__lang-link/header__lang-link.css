@@ -1,9 +1,9 @@
 .header__lang-link {
-    position: absolute;
     text-align: right;
     color: #FFFFFF;
     font-family: 'Inter';
     z-index: 1;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 1280px) {
@@ -11,13 +11,13 @@
     width: 29px;
     height: 28px;
     top: 46px;
-    left: 1058px;
+    right: 193px;
     text-decoration-line: underline;
     }
     .header__lang-link:last-of-type {
     width: 27px;
     height: 28px;
     top: 46px;
-    left: 1105px;
+    right: 148px;
     }
 }

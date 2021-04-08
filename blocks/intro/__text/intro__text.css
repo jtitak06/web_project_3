@@ -1,11 +1,9 @@
 .intro__text {
-    width: 690px;
-    margin-left: 148px;
+    max-width: 720px;
     font-family: 'Inter';
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
-    margin-left: 148px;
 }
 
 .intro__text:first-of-type {
@@ -20,12 +18,12 @@
 
 @media screen and (max-width: 1140px) {
     .intro__text {
-        margin-left: 48px;
+        
     }
 }
 
 @media screen and (max-width: 950px) {
     .intro__text {
-        align-items: center;
+        
     }
 }

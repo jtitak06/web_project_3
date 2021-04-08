@@ -1,6 +1,9 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__image/place__image.css);
 @import url(../place/__website/);
+@import url(../place/__website/_link/place__website_link.css);
+@import url(../place/__website/_paragraph/place__website_paragraph.css);
+@import url(../place/__website/_url-heading/place__website_url-heading.css);
 
 .place {
     max-width: 984px;
