@@ -1,22 +1,22 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__image/place__image.css);
-@import url(../place/__website/);
+@import url(../place/__website/place__website.css);
 @import url(../place/__website/_link/place__website_link.css);
 @import url(../place/__website/_paragraph/place__website_paragraph.css);
 @import url(../place/__website/_url-heading/place__website_url-heading.css);
 
+
 .place {
     max-width: 984px;
+    max-height: 584px;
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
-    "title url"
-    "image text";
+    "title website"
+    "image paragraph";
     grid-gap: 48px 40px;
-    align-items: flex-start;
     margin: 0 0 80px;
-    padding: 0;
 }
 
 .place:first-of-type {

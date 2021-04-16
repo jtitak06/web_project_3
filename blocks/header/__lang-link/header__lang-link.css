@@ -10,14 +10,11 @@
     .header__lang-link:first-of-type {
     width: 29px;
     height: 28px;
-    top: 46px;
-    right: 193px;
+    margin-right: 18px;
     text-decoration-line: underline;
     }
     .header__lang-link:last-of-type {
     width: 27px;
     height: 28px;
-    top: 46px;
-    right: 148px;
     }
 }

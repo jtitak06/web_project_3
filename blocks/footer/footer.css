@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: flex-end;
     max-width: 100%;
-    margin: 0 auto 24px auto;
+    margin: 92px auto 24px auto;
 }
 
 @media screen and (max-width: 425px) {

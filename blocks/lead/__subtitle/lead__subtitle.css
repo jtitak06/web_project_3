@@ -4,9 +4,9 @@
     font-style: normal;
     font-size: 30px;
     line-height: 36px;
-    width: 620px;
-    height: 72px;
+    max-width: 620px;
+    max-height: 72px;
     text-align: center;
     color: #ffffff;
-    margin: auto;
+    margin: 32px auto 0px;
 }

@@ -1,5 +1,18 @@
 .lead__image {
     max-width: 984px;
     align-items: center;
-    background-image: url(./sprint-3-images-en/lead-mountains.jpg)
+    background-image: url(./sprint-3-images-en/lead-mountains.jpg);
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1106px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .lead__image {
+        margin-top: 40px;
+    }
 }
