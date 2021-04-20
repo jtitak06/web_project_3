@@ -5,12 +5,24 @@
     font-family: 'Inter';
     font-size: 12px;
     line-height: 18px;
-    width: 690px;
+    max-width: 690px;
     height: 72px;
     color: #ffffff;
     padding: 0;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 896px) {
+    .intro__list {
+        max-width: 720px;
+        min-height: 72px;
+        margin: auto;
+    }
+}
 
+@media screen and (max-width: 544px) {
+    .intro__list {
+        max-width: 288px;
+        min-height: 72px;
+        margin: auto;
+    }
 }

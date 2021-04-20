@@ -6,4 +6,5 @@
     max-width: 1184px;
     align-items: center;
     background-image: url('../../../sprint-3-images-en/cover-route-66.jpg');
+    background-size: cover;
 }

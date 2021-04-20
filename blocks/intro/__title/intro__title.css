@@ -6,11 +6,25 @@
     line-height: 58px;
     max-width: 690px;
     color: #ffffff;
+    
 }
 
 
 @media screen and (max-width: 896px) {
-    .intro__text {
+    .intro__title {
+        max-width: 720px;
+        min-height: 116px;
+        margin: 88px auto 0px auto;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro__title {
+        max-width: 288px;
+        min-height: 105px;
         align-items: center;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 64px auto 0px auto;
     }
 }

@@ -4,4 +4,22 @@
 
 .header {
     max-height: 136px;
+    max-width: 984px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
