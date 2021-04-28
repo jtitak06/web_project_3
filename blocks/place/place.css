@@ -5,53 +5,17 @@
 @import url(../place/__website/_paragraph/place__website_paragraph.css);
 @import url(../place/__website/_url-heading/place__website_url-heading.css);
 
-
 .place {
     max-width: 984px;
-    max-height: 584px;
+    min-height: 584px;
     display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-    "title website"
-    "image paragraph";
-    grid-gap: 48px 40px;
-    margin: 0 0 80px;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
 }
 
-.place:first-of-type {
-    margin-top: 0px;
-}
-
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 544px) {
     .place {
-        max-width: 928px;
-        grid-template-columns: 440px 1fr;
-        grid-gap: 48px 32px;
-        margin: 0 48px 80px;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .place {
-        max-width: 720px;
-        grid-template-columns: 340px 1fr;
-        grid-gap: 48px 28px;
-        margin: 0 24px 80px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place {
-        max-width: 320px;
-        min-height: 911px;
-        margin: 0 auto 80px;
         display: flex;
         flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "title"
-        "image"
-        "text";
     }
 }

@@ -6,3 +6,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 544px) {
+    .places {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .places {
+        margin: 88px 24px 0px;
+    }
+}
