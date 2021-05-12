@@ -20,6 +20,12 @@
     grid-column: 2;
 }
 
+@media screen and (max-width: 896px) {
+    .place__website_paragraph {
+        margin-right: 24px;
+    }
+}
+
 @media screen and (max-width: 544px) {
     .place__website_paragraph {
         margin-left: 16px;
