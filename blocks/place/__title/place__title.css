@@ -9,7 +9,6 @@
     color: #ffffff;
     display: flex;
     align-items: flex-end;
-    grid-area: "title";
 }
 
 @media screen and (max-width: 544px) {

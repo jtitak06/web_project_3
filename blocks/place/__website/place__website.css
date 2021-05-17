@@ -2,10 +2,10 @@
     border: none;
     grid-column: 2;
     grid-row: 1;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 0px;
     padding-left: 0px;
     grid-area: "website";
 }

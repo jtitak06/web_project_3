@@ -1,7 +1,7 @@
 @import url(./__list/places__list.css);
 
 .places {
-    margin: 0 148px 92px;
+    margin: 0 148px 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,6 +10,12 @@
 @media screen and (max-width: 544px) {
     .places {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .places {
+        margin: 0 48px 12px;
     }
 }
 
