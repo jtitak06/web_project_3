@@ -1,8 +1,5 @@
 .cover__link {
     min-height: 740px;
-    background-image: url(sprint-3-images-en/cover-route-66.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     display: flex;
     justify-content: center;

@@ -4,14 +4,22 @@
 @import url(../place/__link/place__link.css);
 @import url(../place/__paragraph/place__paragraph.css);
 @import url(../place/__url-heading/place__url-heading.css);
+@import url(../place/__paragraphs/place__paragraphs.css);
 
 .place {
     max-width: 984px;
-    min-height: 584px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 2em;
+    grid-template-columns: 45% 55%;
+    grid-gap: 48px 2em;
+    margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1152px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
 
 @media screen and (max-width: 544px) {
     .place {

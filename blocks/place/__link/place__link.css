@@ -6,6 +6,9 @@
     text-decoration-line: underline;
     transition-duration: 0.5s;
     color:#ffffff;
+    margin-top: 12px;
+    display: flex;
+    
 }
 
 .place__link:hover {
