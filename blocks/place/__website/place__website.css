@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: flex-end;
     padding-left: 0px;
-    grid-area: "website";
 }
 
 @media screen and (max-width: 544px) {

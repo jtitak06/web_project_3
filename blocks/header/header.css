@@ -3,7 +3,6 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-    max-height: 136px;
     max-width: 984px;
     display: flex;
     justify-content: space-between;

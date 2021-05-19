@@ -9,21 +9,8 @@
     justify-items: center;
 }
 
-@media screen and (max-width: 1152px) {
-    .photo-grid {
-        min-height: 942px;
-    }
-}
-
-@media screen and (max-width: 896px) {
-    .photo-grid {
-        min-height: 1664px;
-    }
-}
-
 @media screen and (max-width: 544px) {
     .photo-grid {
-        min-height: 2724px;
         margin-bottom: 0px;
     }
 }
