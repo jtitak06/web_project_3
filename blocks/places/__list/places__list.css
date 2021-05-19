@@ -2,3 +2,9 @@
     list-style-type: none;
     padding: 0;
 }
+
+@media screen and (max-width: 544px) {
+    .places__list {
+        margin-bottom: 64px;
+    }
+}

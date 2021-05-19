@@ -20,3 +20,11 @@
     src: url('./Inter-900.woff2') format('woff2')
        url('./Inter-900.woff') format('woff'); 
 }
+
+@font-face {
+    font-family: 'Inter-Black';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./Inter-Black.woff2') format('woff2')
+        url('./Inter-Black.woff') format('woff');
+}

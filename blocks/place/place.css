@@ -17,16 +17,13 @@
 @media screen and (max-width: 1152px) {
     .place {
         max-width: 928px;
-        margin-block-start: 48px;
-        margin-block-end: 48px;
     }
 }
-
-
 
 @media screen and (max-width: 544px) {
     .place {
         display: flex;
         flex-direction: column;
+        margin-bottom: 0px;
     }
 }
