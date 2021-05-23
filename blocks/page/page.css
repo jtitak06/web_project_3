@@ -1,6 +1,4 @@
-@import url(./__container/page__container.css);
 .page {
     background-color: #2A2C2F;
     position: relative;
-    overflow-x: hidden;
 }

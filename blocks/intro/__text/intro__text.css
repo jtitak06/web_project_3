@@ -3,18 +3,10 @@
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #ffffff;
-    padding: 0;
-}
-
-.intro__text:first-of-type {
-    font-size: 24px;
-    line-height: 34px;
-}
-
-.intro__text:last-of-type {
     font-size: 16px;
     line-height: 26px;
+    color: #ffffff;
+    padding: 0;
 }
 
 @media screen and (max-width: 1152px) {
@@ -24,27 +16,14 @@
 }
 
 @media screen and (max-width: 896px) {
-    .intro__text:first-of-type {
-        max-width: 720px;
-        margin: 40px auto 0px auto;
-    }
-}
-
-@media screen and (max-width: 896px) {
-    .intro__text:last-of-type {
+    .intro__text {
         max-width: 720px;
         margin: 32px auto 33px auto;
     }
 }
 
 @media screen and (max-width: 544px) {
-    .intro__text:first-of-type {
-        max-width: 288px;
-    }
-}
-
-@media screen and (max-width: 544px) {
-    .intro__text:last-of-type {
+    .intro__text {
         max-width: 288px;
     }
 }
