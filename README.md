@@ -4,6 +4,7 @@
 * Intro
 * Figma
 * My Process
+* Links
 
 **Intro**
 
@@ -22,3 +23,8 @@ The grids were used primarily to determine a specific layout for some sections. 
 Whenever I would run into an issue, I would use an online search to find the answer. If an online search could not provide the answers needed, I would ask the tutors in the Practicum Slack channel.
 
 Everything that was learned and utilized while building this website will be utilized in future projects. This is all in accordance with my goal of growing my skills as a developer.
+
+**Links**
+
+* [Github Repository](https://github.com/jtitak06/)
+* [Project URL](https://web-project-3.vercel.app/)

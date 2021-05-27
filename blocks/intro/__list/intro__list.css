@@ -8,6 +8,7 @@
     max-width: 690px;
     color: #ffffff;
     padding: 0;
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 1152px) {

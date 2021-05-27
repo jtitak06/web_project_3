@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 544px) {
     .place__image {
-        margin-top: 30px;
+        margin-bottom: 32px;
     }
 }

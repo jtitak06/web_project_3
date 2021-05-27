@@ -1,5 +1,4 @@
 .place {
-    max-width: 984px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 48px 2em;
@@ -17,5 +16,6 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 0px;
+        grid-gap: 0px;
     }
 }

@@ -10,10 +10,19 @@
     <div class="page__container">
       <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="USA Logo" />
-        <nav class="header__lang-links">
-          <a class="header__lang-link header__lang-link_select" href="#" target="_self">En</a>
-          <a class="header__lang-link" href="#" target="_self">Es</a>
-        </nav>
+        <ul class="header__lang-links">
+          <li class="header__lang-link header__lang-link_select">
+            <a
+              class="header__lang-link"
+              href="#"
+              target="_self"
+              >En</a
+            >
+          </li>
+          <li>
+            <a class="header__lang-link" href="#" target="_self">Es</a>
+          </li>
+        </ul>
       </header>
       <main>
         <section class="lead">
@@ -55,9 +64,7 @@
             <li>
               <span class="intro__span-bold">Distance (miles)</span> 3,644
             </li>
-            <li>
-              <span class="intro__span-bold">Travel time (days)</span> 22
-            </li>
+            <li><span class="intro__span-bold">Travel time (days)</span> 22</li>
             <li>
               <span class="intro__span-bold">Highest point (feet)</span>
               9,613
@@ -310,21 +317,21 @@
       </main>
       <footer class="footer">
         <nav class="footer__links">
-              <a class="footer__link"
-                href="https://yandex.com/maps"
-                target="_blank"
-                >Maps</a
-              >
-              <a class="footer__link"
-                href="https://yandex.com/weather/moscow"
-                target="_blank"
-                >Weather</a
-              >
-              <a class="footer__link"
-                href="https://calendar.yandex.ru"
-                target="_blank"
-                >Calendar</a
-              >
+          <a class="footer__link" href="https://yandex.com/maps" target="_blank"
+            >Maps</a
+          >
+          <a
+            class="footer__link"
+            href="https://yandex.com/weather/moscow"
+            target="_blank"
+            >Weather</a
+          >
+          <a
+            class="footer__link"
+            href="https://calendar.yandex.ru"
+            target="_blank"
+            >Calendar</a
+          >
         </nav>
         <p class="footer__copyright">© 2021. Jeff Titak</p>
       </footer>

@@ -11,8 +11,7 @@
 
 @media screen and (max-width: 544px) {
     .place__website {
-        margin-left: 16px;
-        margin-right: 16px;
+        margin: 30px 16px;
         padding: 0px;
     }
 }
