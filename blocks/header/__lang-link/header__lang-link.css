@@ -7,15 +7,11 @@
     line-height: 28px;
     padding: 0;
     margin: 0;
+    text-decoration-line: none;
 }
 
 .header__lang-link:hover {
     color: #aaaaaa;
-}
-
-.header__lang-link:last-of-type {
-    text-decoration-line: none;
-    margin-left: 18px;
 }
 
 @media screen and (max-width: 544px) {

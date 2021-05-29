@@ -27,4 +27,4 @@ Everything that was learned and utilized while building this website will be uti
 **Links**
 
 * [Github Repository](https://github.com/jtitak06/)
-* [Project URL](https://web-project-3.vercel.app/)
+* [Project URL](https://jtitak06.github.io/web_project_3/)
